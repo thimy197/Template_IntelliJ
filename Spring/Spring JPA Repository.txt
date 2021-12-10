@@ -1,0 +1,7 @@
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import ${PACKAGE_NAME}.entities.${NAME};
+
+public interface ${NAME}Repository extends JpaRepository<${NAME}, Long> {
+}

@@ -1,0 +1,6 @@
+@ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+@JoinTable(name = "$VALUE1$",
+        joinColumns = @JoinColumn(name = "$VALUE2$"),
+        inverseJoinColumns = @JoinColumn(name = "$VALUE3$")
+)
+private Set<$VALUE4$> $END$ = new HashSet<>();

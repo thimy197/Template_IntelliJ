@@ -1,0 +1,2 @@
+@ManyToMany(mappedBy = "$VALUE1$")
+private Set<$VALUE2$> $END$ = new HashSet<>();
